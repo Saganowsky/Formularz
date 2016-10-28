@@ -1,0 +1,112 @@
+
+body{
+	
+background-image: url("17.png");
+font-size: 20px;
+	
+}
+
+img{
+display:block;
+margin: auto;
+width:100%;
+height: auto;
+    
+}
+.container{
+	
+background-color:white;
+width: 300px;
+margin-right:auto;
+margin-left: auto;
+margin-top:150px;
+padding: 50px;	
+-webkit-box-shadow: 3px 3px 30px 2px rgba(96,96,96,0.9);
+-moz-box-shadow: 3px 3px 30px 2px rgba(96,96,96,0.9);
+box-shadow: 3px 3px 30px 2px rgba(96,96,96,0.9);
+       
+	
+}
+
+input[type="text"],
+input[type="password"]
+{
+width:300px;
+background-color:#efefef;
+color:#666;
+border: 2px solid #ddd;
+border-radius: 10px;
+font-size: 20px;
+padding: 10px;	
+box-sizing: border-box;
+outline:none;
+margin-top:10px;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus
+{
+-webkit-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.7);
+box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.5);
+border:2px solid #5db0d6;
+background-color: #e9f3e9;
+color:#5db0d6;
+       
+	
+	
+	
+}
+
+
+input[type="submit"]{
+background: #f1b357;
+  background-image: -webkit-linear-gradient(top, #f1b357, #d36685);
+  background-image: -moz-linear-gradient(top, #f1b357, #d36685);
+  background-image: -ms-linear-gradient(top, #f1b357, #d36685);
+  background-image: -o-linear-gradient(top, #f1b357, #d36685);
+  background-image: linear-gradient(to bottom, #f1b357, #d36685);
+width:300px;
+font-size:20px;
+border: 2px solid #fff;
+padding: 15px 10px;
+border-radius: 8px;
+color: white;
+font-weight: bold;
+letter-spacing: 1px;
+cursor: pointer;
+outline:none;
+margin-top:20px;
+    
+	
+
+	
+}
+
+input[type="submit"]:hover 
+{
+background: #bd358a;
+  background-image: -webkit-linear-gradient(top, #bd358a, #6787be);
+  background-image: -moz-linear-gradient(top, #bd358a, #6787be);
+  background-image: -ms-linear-gradient(top, #bd358a, #6787be);
+  background-image: -o-linear-gradient(top, #bd358a, #6787be);
+  background-image: linear-gradient(to bottom, #bd358a, #6787be);
+  text-decoration: none;
+border-radius:10px;
+    
+    
+ 
+
+}
+
+
+input[type="submit"]:focus{
+	
+	-webkit-box-shadow: 1px 1px 15px 5px rgba(0,0,0,0.5);
+-moz-box-shadow: 1px 1px 10px 2px rgba(0,0,0,0.7);
+    box-shadow: 1px 1px 15px 5px rgba(0,0,0,0.5);}
+       
+
+
+
